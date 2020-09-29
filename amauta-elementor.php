@@ -11,4 +11,7 @@ Text Domain : amautor
 Domain Path: /languages/
 */
 
+define( 'AMAUTOR_FILE', __FILE__ );
+define( 'AMAUTOR_PATH', dirname( __FILE__ ) );
+
 require_once __DIR__ . '/autoload.php';
